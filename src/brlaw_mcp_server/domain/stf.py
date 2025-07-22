@@ -41,7 +41,7 @@ class StfLegalPrecedent(BaseLegalPrecedent):
             wait_until="networkidle",  # Page keeps loading async.
         )
 
-        if response is None or response.status >= 300:
+        if response is None or response.status >= 300:  # noqa: PLR2004  # constant used only once.
             _LOGGER.error(
                 "The server's response wasn't as expected",
                 extra={
