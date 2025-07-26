@@ -5,6 +5,10 @@
 A MCP (Model Context Protocol) server for agent-driven research on Brazilian law using official 
 sources.
 
+<a href="https://glama.ai/mcp/servers/@pdmtt/brlaw_mcp_server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@pdmtt/brlaw_mcp_server/badge" alt="Brazilian Law Research Server MCP server" />
+</a>
+
 ## Foreword
 This server empowers models with scraping capacities, thus making research easier to anyone 
 legitimately interested in Brazilian legal matters. 
